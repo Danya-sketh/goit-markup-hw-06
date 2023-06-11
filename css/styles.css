@@ -551,7 +551,7 @@ body {
 
 .sub-form {
     display: flex;
-
+    gap: 24px;
 }
 
 .sub-label {
@@ -584,7 +584,8 @@ input::placeholder {
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 16px;
+    min-width: 165px;
+    font-weight: 500px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -593,7 +594,7 @@ input::placeholder {
     border: none;
     border-radius: 4px;
     margin-left: 24px;
-
+    
 }
 
 .footer-sub-svg {
