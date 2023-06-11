@@ -585,7 +585,7 @@ input::placeholder {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     min-width: 165px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -601,7 +601,7 @@ input::placeholder {
 .footer-sub-svg {
     fill: #FFFFFF;
     margin: auto;
-    margin-left: 20px;
+    margin-left: 16px;
     margin-right: 4px;
 }
 
