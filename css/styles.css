@@ -9,6 +9,7 @@
     --portfolio-color: #E7E9FC;
     --custom-color: #8E8F99;
     --footer-p-color: #FFFFFF;
+    --smth-color: #404bbf;
 }
 
 img {
@@ -680,6 +681,7 @@ input::placeholder {
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-name-input:focus {
@@ -713,6 +715,7 @@ input::placeholder {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
+    
     transition-property: background-color, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -745,6 +748,18 @@ input::placeholder {
 
 .text-input-area {
     resize: none;
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-input-area:focus {
@@ -754,7 +769,58 @@ input::placeholder {
 .check-box-container {
     margin: auto;
     margin-bottom: 24px;
+}
 
+.privacy-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--custom-color);
+
+}
+
+.user-privacy {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.privacy-box {
+
+}
+
+.privacy:checked + .privacy-label .user-privacy {
+background-color: var(--smth-color);
+fill: var(--portf-btn-backgr-color);
+border: none;
+}
+
+.privacy-link {
+    color: var(--logo-color);
+    
+}
+
+.submit {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*----------------------- PORTFOLIO --------------------------*/
