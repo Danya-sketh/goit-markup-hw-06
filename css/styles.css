@@ -578,7 +578,7 @@ input::placeholder {
     color: #FFFFFF;
 }
 
-.sumbmit {
+.sub-btn {
     height: 40px;
     display: flex;
     justify-content: center;
